@@ -1,23 +1,64 @@
 aid: byteroad-sociedade-unipessoal-lda
+
 name: ByteRoad, Sociedade Unipessoal Lda
-description: 'ByteRoad, Sociedade Unipessoal Lda is a company surfaced via the API Evangelist harvest
-  backlog (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'ByteRoad, Sociedade Unipessoal Lda is a technology company focused on providing innovative solutions for road safety and transportation management. It offers a platform that integrates data analytics, IoT devices, and mobile applications to help authorities monitor road conditions, manage traffic, and improve driver safety. The company aims to reduce accidents and enhance efficiency through real-time insights and automated reporting tools, serving both public and private sector clients across Europe.'
+
 url: https://raw.githubusercontent.com/api-evangelist/byteroad-sociedade-unipessoal-lda/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- Road Safety
+- IoT
+- Data Analytics
+- Transportation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/byteroad-sociedade-unipessoal-lda-hosts.yml
+- type: SDKs
+  url: packages/byteroad-sociedade-unipessoal-lda-packages.yml
+- type: Packages
+  url: packages/byteroad-sociedade-unipessoal-lda-packages.yml
+- type: GitHubOrganization
+  url: https://github.com/byteroad
+- type: DomainSecurity
+  url: security/byteroad-sociedade-unipessoal-lda-domain-security.yml
 - type: Website
   url: https://byteroad.net/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The provider website returns HTML pages but no OpenAPI, GraphQL, or other machine-readable contract was discovered.
+  evidence:
+    - url: https://byteroad.net/
+      status: 200
+  checked: '2026-10-23'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

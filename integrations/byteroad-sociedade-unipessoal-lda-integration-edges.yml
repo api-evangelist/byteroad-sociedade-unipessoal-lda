@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/byteroad-sociedade-unipessoal-lda/integrations
+- https://n8n.io/integrations/byteroad-sociedade-unipessoal-lda/
+- https://composio.dev/toolkits/byteroad-sociedade-unipessoal-lda
+- https://monid.ai/tools/byteroad-sociedade-unipessoal-lda
+checked:
+- https://composio.dev/toolkits/byteroad-sociedade-unipessoal-lda
+- https://monid.ai/tools/byteroad-sociedade-unipessoal-lda
+- https://n8n.io/integrations/byteroad-sociedade-unipessoal-lda/
+- https://zapier.com/apps/byteroad-sociedade-unipessoal-lda/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
